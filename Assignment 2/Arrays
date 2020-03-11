@@ -1,5 +1,0 @@
-var numbers = [23,45,66,99,67];
-console.log(numbers.length);
-
-var cookies = ['sugar','salt'];
-console.log("cookies length:"+cookies.length);
