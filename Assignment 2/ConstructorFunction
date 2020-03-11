@@ -1,0 +1,25 @@
+var book = {
+
+author: 'Victor Hugo',
+title: 'Les Miserables',
+pages: 1200
+
+};
+
+function Book(author,title,pages){
+    
+    this.author = author;
+    this.title = title;
+    this.pages = pages;
+    
+}
+
+var book1 = new Book('Charles Deckson','Tale of two cities', 567);
+
+var book2 = new Book('Definitive JavaScript','David Flagun',857);
+
+var book3 = new Book('Frankstein','Mar Shelly',454);
+
+console.log(book1);
+console.log(book2);
+console.log(book3);
